@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+}
+
+#slide_dog{
+  width: 100%;
+  height: 100vh;
+  backface-visibility: hidden;
+  animation-timing-function: ease-in-out;
+  animation: slide 12s linear infinite 0s;
+  background-image: url('https://pp.userapi.com/c630819/v630819281/11085/cbz90pcQCF0.jpg') no-repeat center / cover;
+}
+
+@keyframes slide {
+  0%{
+    background: url('https://pp.userapi.com/c630316/v630316300/3521b/_VsNQgd6gDE.jpg') no-repeat center / cover;
+  }25%{
+    background: url('https://pp.userapi.com/c630316/v630316300/3522f/6GQk-oaO480.jpg') no-repeat center / cover;
+  }50%{
+    background: url('https://pp.userapi.com/c630819/v630819281/110a7/Ha9iyK9zp7g.jpg') no-repeat center / cover;
+  }75%{
+    background: url('https://pp.userapi.com/c630819/v630819281/110b0/TpmSbZ6fmww.jpg') no-repeat center / cover;
+  }100%{
+    background: url('https://pp.userapi.com/c630819/v630819281/110b9/riRfdybnt-I.jpg') no-repeat center / cover;
+  }
+}
